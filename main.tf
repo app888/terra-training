@@ -1,5 +1,5 @@
 terraform {
-    backend "s3" {
+  backend "s3" {
     # Replace this with your bucket name!
     bucket         = "12345terraformstate12345"
     key            = "global/s3/terraform.tfstate"
